@@ -1,0 +1,23 @@
+MODEL:
+  TYPE: swin_crowd
+  NAME: swin_large_patch4_window7_224_22kto1k_finetune
+  DROP_PATH_RATE: 0.2
+  SWIN:
+    EMBED_DIM: 192
+    DEPTHS: [ 2, 2, 18, 2 ]
+    NUM_HEADS: [ 6, 12, 24, 48 ]
+    WINDOW_SIZE: 7
+# TRAIN:
+#   EPOCHS: 300
+#   WARMUP_EPOCHS: 5
+#   WEIGHT_DECAY: 1e-8
+#   BASE_LR: 2e-05
+#   WARMUP_LR: 2e-08
+#   MIN_LR: 2e-07
+TRAIN:
+  EPOCHS: 100
+  WARMUP_EPOCHS: 5
+  WEIGHT_DECAY: 1e-7
+  BASE_LR: 2e-04
+  WARMUP_LR: 2e-07
+  MIN_LR: 2e-06
