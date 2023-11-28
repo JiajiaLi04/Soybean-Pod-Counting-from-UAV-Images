@@ -2,7 +2,7 @@
 SoybeanNet: Soybean Pod Counting from Unmanned Aerial Vehicle (UAV) Images with Transformer-Based CNNs
 
 ## Installation
-- Follow the installation instructions of Swin-Transformer: 'https://github.com/microsoft/Swin-Transformer/blob/main/get_started.md'.  
+- Follow the installation instructions of Swin-Transformer: https://github.com/microsoft/Swin-Transformer/blob/main/get_started.md.  
 
 
 
